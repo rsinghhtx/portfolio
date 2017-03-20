@@ -1,0 +1,92 @@
+
+
+
+.parallax {
+    /* The image used */
+    background-image: url("https://static.pexels.com/photos/1954/black-and-white-lights-abstract-curves.jpg");
+
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.carousel{
+    background: tran;
+    margin-top: 20px;
+
+}
+
+.carousel .item img{
+    margin: 0 auto; /* Align slide image horizontally center */
+}
+
+.bs-example{
+	margin: 20px;
+}
+
+body {
+  /*padding-top: 70px;*/
+  /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+
+}
+
+  /*p{
+    color: white;
+
+  }*/
+
+h2,h3{
+  text-align: center;
+
+}
+h2{
+  color: #ffbd4a;
+}
+
+
+h3{
+  color: grey;
+
+}
+
+h4{
+  color:grey;
+}
+
+.bio{
+  color: white;
+  font-size: 20px;
+}
+
+ul{
+  color: white;
+
+}
+
+#portfolio p {
+
+  color:white;
+}
+
+button:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+
+
+
+#portfolio{
+  background-color: black;
+
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
